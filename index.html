@@ -53,13 +53,16 @@
             // putting all together, we got something like:
             return str.split("").reverse().join("");
         }
-        console.log(reverseString("Yassss! it's working!"));
     </script>
     
     <!-- Let's do some magic! -->
     <script>
         function revert(val){
-            console.log(val);
+            // created a var to store the value that will be reversed on the called function:
+            var reversedString = reverseString(val);
+            // console.log the result:
+            console.log(reversedString);
+            // it's working!
         }
     </script>
   </body>
