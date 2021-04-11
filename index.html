@@ -59,10 +59,10 @@
     <!-- Let's do some magic! -->
     <script>
         function revert(val){
-            // created a var to store the value that will be reversed on the called function:
-            var reversedString = reverseString(val);
-            // print on the result div:
-            document.getElementById("result").innerHTML = reversedString;
+            /*  Here we return the innerHTML of the result on the called function
+                that will reversed our input value:
+            */
+            return document.getElementById("result").innerHTML = reverseString(val);
         }
     </script>
   </body>
